@@ -34,26 +34,27 @@ AWS EC2 : ec2-3-144-36-208.us-east-2.compute.amazonaws.com:8080/
   
 ## User interface for store sales prediction
 
+![homepage_final](https://user-images.githubusercontent.com/54542692/130473549-615f99ec-b85f-45e2-8f3b-43c6bde90f75.png)
 
-![Annotation 2021-08-18 173818](https://user-images.githubusercontent.com/54542692/129899236-5086d0df-5254-47b8-9900-777cf422d504.png)
 
 ABOUT SECTION
 
-![Annotation 2021-08-18 180828](https://user-images.githubusercontent.com/54542692/129899455-e15c03ee-03f9-424a-ada6-065bae355295.png)
+![about](https://user-images.githubusercontent.com/54542692/130473639-2bf5669d-782e-4273-abb9-3e67e13a97b2.png)
+
 
 User needs to fill this form to get forecast sales of items he/she mentions
 
-![Annotation 2021-08-18 181005](https://user-images.githubusercontent.com/54542692/129899572-880dea21-2957-4fec-8e9a-ffdc5d2d3ce8.png)
+![form](https://user-images.githubusercontent.com/54542692/130473661-2ae1b0aa-5f7a-484b-a4f4-1670d351f0d3.png)
 
-Each field should be filled
 
-![Annotation 2021-08-18 181150](https://user-images.githubusercontent.com/54542692/129899948-4e94edf4-42fc-404a-889d-d9860891665d.png)
+After clicking  submit button user gets the info passed along with forecasted sales and average sales of that product accross all units
 
-After click submit button user gets the info passed along with forecasted sales
+![congrats_results](https://user-images.githubusercontent.com/54542692/130473831-29db4d0b-278e-447c-8d43-7e835dc8f465.png)
 
-![Annotation 2021-08-18 181442](https://user-images.githubusercontent.com/54542692/129900255-bf33eebc-0277-4bfb-9b7c-64171e420885.png)
+Features affecting sales of the product
 
-Also user data is stored in Nosql Database for futher development
+![factors](https://user-images.githubusercontent.com/54542692/130473904-b3823d47-6eae-4227-aa23-026cef8368da.png)
+
 
 ![Annotation 2021-08-18 182336](https://user-images.githubusercontent.com/54542692/129901549-50b82d6a-20e6-46cb-a6bf-f12619f81970.png)
 
