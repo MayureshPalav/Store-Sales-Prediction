@@ -1,0 +1,122 @@
+2021-08-15/13:02:09		Connected to Database
+2021-08-15/13:02:09		Succesfully added Data  
+2021-08-15/15:15:17		Connected to Database
+2021-08-15/15:15:17		Succesfully added Data  
+2021-08-15/15:20:38		Connected to Database
+2021-08-15/15:20:39		Succesfully added Data  
+2021-08-15/15:41:25		Connected to Database
+2021-08-15/15:41:25		Succesfully added Data  
+2021-08-15/17:14:21		Connected to Database
+2021-08-15/17:14:22		Succesfully added Data  
+2021-08-15/17:22:47		Connected to Database
+2021-08-15/17:22:47		Succesfully added Data  
+2021-08-15/18:03:40		Connected to Database
+2021-08-15/18:03:41		Succesfully added Data  
+2021-08-17/20:22:49		Connected to Database
+2021-08-17/20:22:49		Created Column Names 
+2021-08-17/20:22:49		Prepared Values to add in Database
+2021-08-17/20:22:49		Succesfully added Data into Database Table 
+2021-08-18/00:52:53		Connected to Database
+2021-08-18/00:52:53		Created Column Names 
+2021-08-18/00:52:53		Prepared Values to add in Database
+2021-08-18/00:52:53		Succesfully added Data into Database Table 
+2021-08-18/12:02:23		Connected to Database
+2021-08-18/12:02:23		Created Column Names 
+2021-08-18/12:02:23		Prepared Values to add in Database
+2021-08-18/12:02:23		Succesfully added Data into Database Table 
+2021-08-18/12:03:11		Connected to Database
+2021-08-18/12:03:12		Created Column Names 
+2021-08-18/12:03:12		Prepared Values to add in Database
+2021-08-18/12:03:13		Succesfully added Data into Database Table 
+2021-08-18/12:03:16		Connected to Database
+2021-08-18/12:03:16		Created Column Names 
+2021-08-18/12:03:16		Prepared Values to add in Database
+2021-08-18/12:03:16		Succesfully added Data into Database Table 
+2021-08-19/14:50:49		Connected to Database
+2021-08-19/14:50:49		Created Column Names 
+2021-08-19/14:50:49		Prepared Values to add in Database
+2021-08-19/14:50:49		Succesfully added Data into Database Table 
+2021-08-19/14:56:58		Connected to Database
+2021-08-19/14:56:58		Created Column Names 
+2021-08-19/14:56:58		Prepared Values to add in Database
+2021-08-19/14:56:58		Succesfully added Data into Database Table 
+2021-08-19/15:24:05		Connected to Database
+2021-08-19/15:24:06		Created Column Names 
+2021-08-19/15:24:06		Prepared Values to add in Database
+2021-08-19/15:24:06		Succesfully added Data into Database Table 
+2021-08-19/17:14:13		Connected to Database
+2021-08-19/17:14:14		Created Column Names 
+2021-08-19/17:14:14		Prepared Values to add in Database
+2021-08-19/17:14:14		Succesfully added Data into Database Table 
+2021-08-19/17:20:31		Connected to Database
+2021-08-19/17:20:31		Created Column Names 
+2021-08-19/17:20:31		Prepared Values to add in Database
+2021-08-19/17:20:31		Succesfully added Data into Database Table 
+2021-08-19/17:21:50		Connected to Database
+2021-08-19/17:21:50		Created Column Names 
+2021-08-19/17:21:50		Prepared Values to add in Database
+2021-08-19/17:21:51		Succesfully added Data into Database Table 
+2021-08-19/17:25:50		Connected to Database
+2021-08-19/17:25:51		Created Column Names 
+2021-08-19/17:25:51		Prepared Values to add in Database
+2021-08-19/17:25:51		Succesfully added Data into Database Table 
+2021-08-19/17:32:42		Connected to Database
+2021-08-19/17:32:42		Created Column Names 
+2021-08-19/17:32:42		Prepared Values to add in Database
+2021-08-19/17:32:42		Succesfully added Data into Database Table 
+2021-08-19/17:34:48		Connected to Database
+2021-08-19/17:34:48		Created Column Names 
+2021-08-19/17:34:48		Prepared Values to add in Database
+2021-08-19/17:34:49		Succesfully added Data into Database Table 
+2021-08-19/17:35:47		Connected to Database
+2021-08-19/17:35:47		Created Column Names 
+2021-08-19/17:35:47		Prepared Values to add in Database
+2021-08-19/17:35:47		Succesfully added Data into Database Table 
+2021-08-20/01:11:20		Connected to Database
+2021-08-20/01:11:20		Created Column Names 
+2021-08-20/01:11:20		Prepared Values to add in Database
+2021-08-20/01:11:20		Succesfully added Data into Database Table 
+2021-08-20/01:19:03		Connected to Database
+2021-08-20/01:19:03		Created Column Names 
+2021-08-20/01:19:03		Prepared Values to add in Database
+2021-08-20/01:19:03		Succesfully added Data into Database Table 
+2021-08-20/01:32:42		Connected to Database
+2021-08-20/01:32:42		Created Column Names 
+2021-08-20/01:32:42		Prepared Values to add in Database
+2021-08-20/01:32:43		Succesfully added Data into Database Table 
+2021-08-20/15:53:24		Connected to Database
+2021-08-20/15:53:25		Created Column Names 
+2021-08-20/15:53:25		Prepared Values to add in Database
+2021-08-20/15:53:25		Succesfully added Data into Database Table 
+2021-08-20/16:38:11		Connected to Database
+2021-08-20/16:38:11		Created Column Names 
+2021-08-20/16:38:11		Prepared Values to add in Database
+2021-08-20/16:38:12		Succesfully added Data into Database Table 
+2021-08-20/16:43:05		Connected to Database
+2021-08-20/16:43:06		Created Column Names 
+2021-08-20/16:43:06		Prepared Values to add in Database
+2021-08-20/16:43:06		Succesfully added Data into Database Table 
+2021-08-20/20:58:07		Connected to Database
+2021-08-20/20:58:07		Created Column Names 
+2021-08-20/20:58:07		Prepared Values to add in Database
+2021-08-20/20:58:07		Succesfully added Data into Database Table 
+2021-08-22/10:31:46		Connected to Database
+2021-08-22/10:31:46		Created Column Names 
+2021-08-22/10:31:46		Prepared Values to add in Database
+2021-08-22/10:31:47		Succesfully added Data into Database Table 
+2021-08-23/12:24:15		Connected to Database
+2021-08-23/12:24:15		Created Column Names 
+2021-08-23/12:24:15		Prepared Values to add in Database
+2021-08-23/12:24:16		Succesfully added Data into Database Table 
+2021-08-23/12:25:09		Connected to Database
+2021-08-23/12:25:09		Created Column Names 
+2021-08-23/12:25:09		Prepared Values to add in Database
+2021-08-23/12:25:09		Succesfully added Data into Database Table 
+2021-08-23/13:14:10		Connected to Database
+2021-08-23/13:14:10		Created Column Names 
+2021-08-23/13:14:10		Prepared Values to add in Database
+2021-08-23/13:14:11		Succesfully added Data into Database Table 
+2021-08-23/13:15:48		Connected to Database
+2021-08-23/13:15:49		Created Column Names 
+2021-08-23/13:15:49		Prepared Values to add in Database
+2021-08-23/13:15:49		Succesfully added Data into Database Table 

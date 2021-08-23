@@ -1,0 +1,92 @@
+<!-- 
+NAME @: Mayuresh Palav
+TOPIC @: Risk Analytics Model Deployment
+DATE @: 08/10/2020 
+-->
+
+
+<!----------------------------- BASE SECTION  ----------------------------------->
+
+{% extends "base.html"%}
+
+<!------------------------------------------------------------------------------->
+
+{% block content %}
+
+
+<!-------------------------- THANKYOU BODY SECTION ------------------------------->
+<!-- Results  -->
+<section class="results-section">
+  <!---------------------------- PREDICTION   SECTION  ---------------------------------->
+  <div class="result" id="result">
+
+    <h1 class="result-heading"><i class="fas fa-grin-stars result-icon"></i>Congratulations!!! Here are the results.
+    </h1>
+    <h1 class="result-title">Your sales for <span>{{ item_type }}</span> at <span>{{ loc }}</span> are predicted to be
+      around <span>₹ {{ results
+        }} </span> </h1>
+    <h1 class="result-title">Average Sales for <span>{{ item_type }}</span> across all Outlets is around <span>₹ {{
+        avg_sales }}</span> </h1>
+
+  </div>
+</section>
+
+<!-----------------------------  INFO TABLE   ----------------------------------->
+<section class="info-section" id="info">
+  <h1 class="info-title">Thank You <span>!</span> Here is the info you gave:
+  </h1>
+  <div class="data">
+    <div class="info">
+      <p class="name">Info</p>
+      <p class="name">Item Weight:</p>
+      <p class="name">Item Visibility:</p>
+      <p class="name">Item MRP:</p>
+      <p class="name">Item Identifier:</p>
+      <p class="name">Item Fat Content:</p>
+      <p class="name">Item Type:</p>
+      <p class="name">Outlet Identifier:</p>
+      <p class="name">Outlet Size:</p>
+      <p class="name">Outlet Location Type:</p>
+      <p class="name">Outlet Type:</p>
+    </div>
+    <div class="info">
+      <p class="values">Data</p>
+      <p class="values">{{session['Item_weight']}}</p>
+      <p class="values">{{session['Item_visibility']}}</p>
+      <p class="values">{{session['Item_mrp']}}</p>
+      <p class="values">{{session['Item_Identifier']}}</p>
+      <p class="values">{{session['Item_Fat_Content']}}</p>
+      <p class="values">{{session['Item_Type']}}</p>
+      <p class="values">{{session['Outlet_Identifier']}}</p>
+      <p class="values">{{session['Outlet_Size']}}</p>
+      <p class="values">{{session['Outlet_Location_Type']}}</p>
+      <p class="values">{{session['Outlet_Type']}}</p>
+
+    </div>
+  </div>
+</section>
+<section class="prediction" id="prediction">
+
+  <div class="predict-container">
+    <p class="predict-title">Factors leading to growth in sales: <br><span>(High to Low)</span></p>
+    <div class="predict-info">
+      {%for val in pos%}
+      <p class="growth predict-value">{{val}}</p>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="predict-container">
+    <p class="predict-title">Factors leading to decline in sales: <br><span>(High to Low)</span></p>
+    <div class="predict-info">
+      {%for val in neg%}
+      <p class="fall predict-value">{{val}}</p>
+      {% endfor %}
+    </div>
+  </div>
+
+</section>
+
+
+{% endblock %}
+
+<!---------------------------------  THE END  ----------------------------------------->

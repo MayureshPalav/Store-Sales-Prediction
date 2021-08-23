@@ -1,0 +1,140 @@
+<!-- 
+NAME @:Mayuresh Palav
+TOPIC @: Risk Analytics Model Deployment
+DATE @: 08/10/2020 
+-->
+
+<!DOCTYPE html>
+<html>
+
+
+<!-----------------------------  EXTERNAL LIB SECTION  ----------------------------------->
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9da824debc.js" crossorigin="anonymous"></script>
+    <!-- Css Stylesheet  -->
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Sales Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+
+
+<!-----------------------------  CSS SECTION  ----------------------------------->
+<style>
+  body,
+  html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/static/mart2.jpg");
+    min-height: 75%;
+  }
+
+  #table1 {
+    width: 800px;
+    margin: auto;
+
+  }
+
+
+  #form1 {
+
+    /* border: 5px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* padding: 20px 20px 20px 30px;
+    background-color: lightblue; */
+
+
+  }
+
+</style>
+
+
+<!-----------------------------  BODY SECTION  ----------------------------------->
+
+<body>
+  <!-----------------------------  HEADER SECTION  ----------------------------------->
+
+
+  <!-- Navbar  -->
+  <nav class="header-section">
+    <div class="header-logo">
+         <a href="/"><h4 class="home-logo">PREDICT</h4></a>  
+    </div>
+    <div class="navbar-icon" id="nav-icon">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="header-nav" id="nav-section">
+      <ul class="nav-items">
+        <li> <a href="#home">HOME</a></li>
+        <li> <a href="#about">ABOUT</a> </li>
+        <li> <a href="#form">FORM</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!----------------------------- EXTENSION  ----------------------------------->
+  {% block content %}
+
+
+
+
+
+  {% endblock %}
+  <!----------------------------------------------------------------------------->
+<!-----------------------------  FOOTER SECTION  ----------------------------------->
+
+<footer class="footer-section">
+  <div class="footer-content">
+      <p> ALL RIGHTS RESERVED. COPYRIGHT <span>&copy;</span> 2021. Developed by <span>Mayuresh Palav</span></p>
+  </div>
+  <div class="footer-social">
+      <p>Find me on social media:</p>
+  
+  <div class="footer-icons">
+      <a href="https://www.facebook.com/mayuresh.palav/" target="_blank"> <i class="fab fa-facebook-f icon"></i></a>
+      <a href="https://github.com/MayureshPalav" target="_blank"><i class="fab fa-github icon"></i></a>
+      <a href="https://www.linkedin.com/in/mayuresh-palav-567043199/"><i class="fab fa-linkedin-in icon"></i></a>
+      
+  </div>
+</div>
+</footer>
+
+
+
+<script src="../static/index.js"></script>
+</body>
+
+
+</html>
+
+<!-----------------------------  THE END  ----------------------------------->

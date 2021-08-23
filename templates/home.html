@@ -1,0 +1,140 @@
+<!-- 
+NAME @: Mayuresh Palav
+TOPIC @: Sales Prediction
+DATE @: 23.07.2021
+-->
+
+
+<!-----------------------------  BASE SECTION  ----------------------------------->
+
+{% extends "base.html"%}
+
+<!-------------------------------------------------------------------------------->
+
+{% block content %}
+
+
+<!---------------------------  HOME BODY SECTION   ------------------------------>
+
+<!-- Add a background color and large text to the whole page -->
+<!-- Home  -->
+<section class="home-section" id="home">
+  <div class="home-container">
+    <h1 class="home-title">STORE SALES PREDICTION</h1>
+    <p class="home-content">Developed By Mayuresh Palav</p>
+  </div>
+</section>
+
+<!-- About  -->
+<section class="about-section" id="about">
+  <div class="title-section">
+    <h1 class="head-title">ABOUT THE PROJECT</h1>
+    <div class="horizontal-line"></div>
+  </div>
+  <div class="about-items-section">
+    <div class="about-item">
+      <div class="about-title-container">
+        <i class="fas fa-bullhorn about-icon"></i>
+        <h3 class="about-item-title">What is Forecasting Sales?</h3>
+      </div>
+      <p class="about-item-content">          Sales forecasting is the process of estimating future revenue by predicting the amount of product or services a sales unit (which can be an individual salesperson, a sales team, or a company) will sell in the next week, month, quarter, or year.
+
+At its simplest, a sales forecast is a projected measure of how a market will respond to a company’s go-to-market efforts.</p>
+    </div>
+    <div class="about-item">
+      <div class="about-title-container">
+        <i class="fas fa-dollar-sign about-icon"></i>
+        <h3 class="about-item-title">Impact of Forecasting!</h3>
+      </div>
+      <p class="about-item-content"> An accurate sales forecast process confers many benefits. These include:
+      <ul>
+      <li class="about-item-content">Improved decision-making about the future</li>
+      <li class="about-item-content">Reduction of sales pipeline and forecast risks</li>
+      <li class="about-item-content">Alignment of sales quotas and revenue expectations</li>
+      <li class="about-item-content">Reduction of time spent planning territory coverage and setting quota assignments</li>
+      <li class="about-item-content">Ability to focus a sales team on high-revenue, high-profit sales pipeline opportunities, resulting in improved win rates</li>
+    </ul>
+
+</p>
+    </div>
+  </div>
+</section>
+
+<!-----------------------------  FORM SECTIOIN  ----------------------------------->
+<section class="form-container">
+  <div class="form-section" id="form">
+
+    <div class="title-section">
+      <h1 class="head-title">Tell Us About Your Store</h1>
+      <div class="horizontal-line"></div>
+    </div>
+
+    <form method="POST" class="form">
+      {# This hidden_tag is a CSRF security feature. #}
+      {{ form.hidden_tag() }}
+
+      <div class="form-input-container">
+        <span>{{ form.Item_weight.label}} </span> {{form.Item_weight}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Item_visibility.label}}</span>
+        {{form.Item_visibility}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Item_mrp.label}}</span>
+        {{form.Item_mrp}}
+
+      </div>
+      <div class="form-input-container">
+        <span>{{form.Item_Identifier.label}}</span>
+        {{form.Item_Identifier}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Item_Fat_Content.label}}</span>
+        {{form.Item_Fat_Content}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Item_Type.label}}</span>
+        {{form.Item_Type}}
+      </div>
+
+      <div class="form-input-container">
+        <span> {{form.Outlet_Identifier.label}}</span>
+        {{form.Outlet_Identifier}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Outlet_Size.label}}</span>
+        {{form.Outlet_Size}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Outlet_Location_Type.label}}</span>
+        {{form.Outlet_Location_Type}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Outlet_Type.label}}</span>
+        {{form.Outlet_Type}}
+      </div>
+
+      <div class="form-input-container">
+        <span>{{form.Year.label}}</span>
+        {{form.Year}}
+      </div>
+
+      {{form.submit()}}
+
+    </form>
+
+  </div>
+  </div>
+</section>
+
+{% endblock %}
+
+<!-----------------------------  THE END  ----------------------------------->

@@ -1,0 +1,151 @@
+2021-08-18/17:03:42		Processing_started
+2021-08-18/17:03:42		Getting data 
+2021-08-18/17:03:42		Loaded data successfully
+2021-08-18/17:03:42		Entered structuring_columns method of the Preprocessor class
+2021-08-18/17:03:42		Removing columns
+2021-08-18/17:03:42		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-08-18/17:03:42		Entered the separate_label_feature method of the Preprocessor class
+2021-08-18/17:03:42		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-08-18/17:03:42		Encoding categorical features
+2021-08-18/17:03:42		Entered the is_null_present method of the Preprocessor class
+2021-08-18/17:03:42		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-08-18/17:03:42		Entered the impute_missing_values method of the Preprocessor class
+2021-08-18/17:03:43		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2021-08-18/17:03:43		Separating train and test
+2021-08-18/17:03:43		Done separating train and test
+2021-08-18/17:03:43		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-18/17:03:43		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-18/17:03:43		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-18/17:03:43		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-18/17:03:43		Done Preprocessing
+2021-08-18/17:03:43		Entering Training_best_model class of training best model file
+2021-08-18/17:03:43		Entered training mode!!Finding best model
+2021-08-18/17:03:43		Entered the get_best_model method of the Model_Finder class
+2021-08-18/17:03:43		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-18/17:03:44		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-18/17:03:44		Entered the RandomForestReg method of the Model_Finder class
+2021-08-18/17:04:48		RandomForestReg best params: {'bootstrap': True, 'max_features': 'sqrt', 'min_samples_split': 8, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2021-08-18/17:04:48		Entered the Gradient Boost method of the Model_Finder class
+2021-08-18/17:05:44		Gradient Boosted best params: {'max_depth': 4, 'max_features': 'auto', 'min_samples_split': 8, 'n_estimators': 30}. Exited the Gradient boost method of the Model_Finder class
+2021-08-18/17:05:44		Best model isGradient Boosted
+2021-08-19/21:08:01		Processing_started
+2021-08-19/21:08:01		Getting data 
+2021-08-19/21:08:01		Loaded data successfully
+2021-08-19/21:08:01		Entered structuring_columns method of the Preprocessor class
+2021-08-19/21:08:01		Removing columns
+2021-08-19/21:08:01		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-08-19/21:08:01		Entered the separate_label_feature method of the Preprocessor class
+2021-08-19/21:08:01		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-08-19/21:08:01		Encoding categorical features
+2021-08-19/21:08:01		Unsuccessful End of Training
+2021-08-19/21:08:12		Processing_started
+2021-08-19/21:08:12		Getting data 
+2021-08-19/21:08:12		Loaded data successfully
+2021-08-19/21:08:12		Entered structuring_columns method of the Preprocessor class
+2021-08-19/21:08:12		Removing columns
+2021-08-19/21:08:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-08-19/21:08:12		Entered the separate_label_feature method of the Preprocessor class
+2021-08-19/21:08:12		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-08-19/21:08:12		Encoding categorical features
+2021-08-19/21:08:12		Entered the is_null_present method of the Preprocessor class
+2021-08-19/21:08:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-08-19/21:08:12		Entered the impute_missing_values method of the Preprocessor class
+2021-08-19/21:08:13		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2021-08-19/21:08:13		Separating train and test
+2021-08-19/21:08:13		Done separating train and test
+2021-08-19/21:08:13		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-19/21:08:13		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-19/21:08:13		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-19/21:08:13		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-19/21:08:13		Done Preprocessing
+2021-08-19/21:08:13		Entering Training_best_model class of training best model file
+2021-08-19/21:08:13		Entered training mode!!Finding best model
+2021-08-19/21:08:13		Entered the get_best_model method of the Model_Finder class
+2021-08-19/21:08:13		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-19/21:08:14		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-19/21:08:14		Entered the RandomForestReg method of the Model_Finder class
+2021-08-19/21:09:15		RandomForestReg best params: {'bootstrap': True, 'max_features': 'log2', 'min_samples_split': 8, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2021-08-19/21:09:15		Entered the Gradient Boost method of the Model_Finder class
+2021-08-19/21:10:07		Gradient Boosted best params: {'max_depth': 4, 'max_features': 'auto', 'min_samples_split': 4, 'n_estimators': 30}. Exited the Gradient boost method of the Model_Finder class
+2021-08-19/21:10:07		Best model isGradient Boosted
+2021-08-20/00:47:07		Processing_started
+2021-08-20/00:47:07		Getting data 
+2021-08-20/00:47:07		Loaded data successfully
+2021-08-20/00:47:07		Entered structuring_columns method of the Preprocessor class
+2021-08-20/00:47:07		Removing columns
+2021-08-20/00:47:07		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-08-20/00:47:07		Entered the separate_label_feature method of the Preprocessor class
+2021-08-20/00:47:07		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-08-20/00:47:07		Encoding categorical features
+2021-08-20/00:47:08		Entered the is_null_present method of the Preprocessor class
+2021-08-20/00:47:08		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-08-20/00:47:08		Entered the impute_missing_values method of the Preprocessor class
+2021-08-20/00:47:09		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2021-08-20/00:47:09		Separating train and test
+2021-08-20/00:47:09		Done separating train and test
+2021-08-20/00:47:09		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:09		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:09		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:09		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:09		Done Preprocessing
+2021-08-20/00:47:09		Entering Training_best_model class of training best model file
+2021-08-20/00:47:17		Processing_started
+2021-08-20/00:47:17		Getting data 
+2021-08-20/00:47:17		Loaded data successfully
+2021-08-20/00:47:17		Entered structuring_columns method of the Preprocessor class
+2021-08-20/00:47:17		Removing columns
+2021-08-20/00:47:17		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-08-20/00:47:17		Entered the separate_label_feature method of the Preprocessor class
+2021-08-20/00:47:17		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-08-20/00:47:17		Encoding categorical features
+2021-08-20/00:47:18		Entered the is_null_present method of the Preprocessor class
+2021-08-20/00:47:18		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-08-20/00:47:18		Entered the impute_missing_values method of the Preprocessor class
+2021-08-20/00:47:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2021-08-20/00:47:19		Separating train and test
+2021-08-20/00:47:19		Done separating train and test
+2021-08-20/00:47:19		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:19		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:19		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:19		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-20/00:47:19		Done Preprocessing
+2021-08-20/00:47:19		Entering Training_best_model class of training best model file
+2021-08-20/00:47:19		Entered training mode!!Finding best model
+2021-08-20/00:47:19		Entered the get_best_model method of the Model_Finder class
+2021-08-20/00:47:19		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-20/00:47:19		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-20/00:47:19		Entered the RandomForestReg method of the Model_Finder class
+2021-08-20/00:48:20		RandomForestReg best params: {'bootstrap': True, 'max_features': 'log2', 'min_samples_split': 8, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2021-08-20/00:48:20		Entered the Gradient Boost method of the Model_Finder class
+2021-08-20/00:49:13		Gradient Boosted best params: {'max_depth': 4, 'max_features': 'auto', 'min_samples_split': 8, 'n_estimators': 30}. Exited the Gradient boost method of the Model_Finder class
+2021-08-20/00:49:13		Best model isGradient Boosted
+2021-08-23/12:08:12		Processing_started
+2021-08-23/12:08:12		Getting data 
+2021-08-23/12:08:12		Loaded data successfully
+2021-08-23/12:08:12		Entered structuring_columns method of the Preprocessor class
+2021-08-23/12:08:12		Removing columns
+2021-08-23/12:08:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-08-23/12:08:12		Entered the separate_label_feature method of the Preprocessor class
+2021-08-23/12:08:12		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-08-23/12:08:12		Encoding categorical features
+2021-08-23/12:08:12		Entered the is_null_present method of the Preprocessor class
+2021-08-23/12:08:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-08-23/12:08:12		Entered the impute_missing_values method of the Preprocessor class
+2021-08-23/12:08:13		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2021-08-23/12:08:13		Separating train and test
+2021-08-23/12:08:13		Done separating train and test
+2021-08-23/12:08:13		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-23/12:08:13		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-23/12:08:13		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-23/12:08:13		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2021-08-23/12:08:13		Done Preprocessing
+2021-08-23/12:08:13		Entering Training_best_model class of training best model file
+2021-08-23/12:08:13		Entered training mode!!Finding best model
+2021-08-23/12:08:13		Entered the get_best_model method of the Model_Finder class
+2021-08-23/12:08:13		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-23/12:08:13		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'normalize': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2021-08-23/12:08:13		Entered the RandomForestReg method of the Model_Finder class
+2021-08-23/12:09:15		RandomForestReg best params: {'bootstrap': True, 'max_features': 'sqrt', 'min_samples_split': 8, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2021-08-23/12:09:15		Entered the Gradient Boost method of the Model_Finder class
+2021-08-23/12:10:06		Gradient Boosted best params: {'max_depth': 4, 'max_features': 'auto', 'min_samples_split': 2, 'n_estimators': 30}. Exited the Gradient boost method of the Model_Finder class
+2021-08-23/12:10:06		Best model is Gradient Boosted
