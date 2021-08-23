@@ -25,7 +25,7 @@ Store sales prediction aims at accurately predicting sales of particular items b
   
 ## Deployment
 
-Heroku: food-preds.herokuapp.com
+Heroku:  https://store-sales.herokuapp.com
 
 AWS EC2 : ec2-3-144-36-208.us-east-2.compute.amazonaws.com:8080/
 
