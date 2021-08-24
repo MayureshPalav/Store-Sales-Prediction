@@ -27,8 +27,7 @@ Store sales prediction aims at accurately predicting sales of particular items b
 
 Heroku:  https://store-sales.herokuapp.com
 
-AWS EC2 : ec2-3-144-36-208.us-east-2.compute.amazonaws.com:8080/
-
+AWS EC2 : http://ec2-3-15-227-66.us-east-2.compute.amazonaws.com:8080/
 
 
   
